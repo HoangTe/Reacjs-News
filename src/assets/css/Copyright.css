@@ -1,0 +1,13 @@
+.copy {
+    background-color: #000;
+}
+
+.copy p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.copy p span{
+    opacity: 0.8;
+    text-transform: uppercase;
+}

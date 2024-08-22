@@ -1,0 +1,40 @@
+.footer {
+    background-color: #000;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 10px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.icon i{
+    font-size: 1.3rem;
+}
+
+.icon:hover {
+    background-color: #ddd;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    font-family: 'Courier New', Courier, monospace;
+    word-spacing: 1px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
