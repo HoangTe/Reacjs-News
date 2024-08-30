@@ -1,4 +1,4 @@
-import './../../src/assets/css/Copyright.css'
+import './../../assets/css/Copyright.css'
 
 const Copyright = () => {
     return (

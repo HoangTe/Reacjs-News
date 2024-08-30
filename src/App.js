@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer/Footer.js';
+import Copyright from './components/Footer/Copyright.js';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
 import './App.css';
-import Footer from './components/Footer';
-import Copyright from './components/Copyright';
 
 function App() {
   return (
     <div className="App">
+      <Routes>
+        <Route path='/' Component={Home} />
+        <Route path='/blog/' Component={Blog} />
+      </Routes>
       <Footer />
       <Copyright />
     </div>
