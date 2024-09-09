@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer.js';
 import Copyright from './components/Footer/Copyright.js';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
+import FormInfo from './pages/FormInfo';
 import './App.css';
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
       <Routes>
         <Route path='/' Component={Home} />
         <Route path='/blog/' Component={Blog} />
+        <Route path='/formInfo/' Component={FormInfo} />
       </Routes>
-      <Footer />
-      <Copyright />
+      {/* <Footer />
+      <Copyright /> */}
     </div>
   );
 }
