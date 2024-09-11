@@ -4,6 +4,7 @@ import Copyright from './components/Footer/Copyright.js';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import FormInfo from './pages/FormInfo';
+import Checkout from './pages/Checkout';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path='/' Component={Home} />
         <Route path='/blog/' Component={Blog} />
         <Route path='/formInfo/' Component={FormInfo} />
+        <Route path='/checkout/' Component={Checkout} />
       </Routes>
       {/* <Footer />
       <Copyright /> */}
